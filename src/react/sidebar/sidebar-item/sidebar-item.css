@@ -1,0 +1,23 @@
+.sidebar-item {
+        background-color: var(--unselected);
+        color: var(--unselected-text);
+
+        flex-shrink: 0;
+        padding: 8px 16px;
+        box-sizing: border-box;
+
+        border-radius: 5px;
+        font-size: 0.8em;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--hover);
+            color: var(--hover-text);
+        }
+
+        &.selected {
+            background-color: var(--selected);
+            color: var(--selected-text);
+        }
+    }

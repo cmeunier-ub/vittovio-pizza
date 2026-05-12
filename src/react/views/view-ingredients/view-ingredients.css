@@ -1,0 +1,18 @@
+.view-ingredients {
+    .actions {
+        display: flex;
+        gap: 10px;
+    }
+
+    .ingredients {
+        display: flex;
+        gap: 8px;
+
+        .ingredients-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 100%;
+        }
+    }
+}

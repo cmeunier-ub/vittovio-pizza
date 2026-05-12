@@ -1,0 +1,22 @@
+:root {
+    --primary: #a12323;
+    --primary-text: #eee;
+
+    --unselected: #eee;
+    --unselected-text: #333;
+
+    --selected: var(--primary);
+    --selected-text: var(--primary-text);
+
+    --hover: #ddd;
+    --hover-text: #333;
+
+    --success: #149c48;
+    --success-text: #eee;
+
+    --warning: #f09a29;
+    --warning-text: #eee;
+
+    --danger: #a12323;
+    --danger-text: #eee;
+}

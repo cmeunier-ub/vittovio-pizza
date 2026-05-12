@@ -1,0 +1,33 @@
+dialog {
+    &[open] {
+        display: flex;
+    }
+    
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 32px;
+    box-sizing: border-box;
+
+    border-radius: 16px;
+    border: none;
+    border-left: 3px solid var(--primary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+    h2 {
+        font-size: 1.2em;
+        text-align: center;
+        margin: 0;
+        color: var(--primary);
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        label {
+            font-size: 0.8em;
+        }
+    }
+}
